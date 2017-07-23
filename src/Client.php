@@ -33,7 +33,7 @@ class Client
      */
     public function __construct(string $networkId, string $networkToken)
     {
-        $this->networkId    = $networkId;
+        $this->networkId = $networkId;
         $this->networkToken = $networkToken;
     }
 

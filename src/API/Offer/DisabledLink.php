@@ -11,8 +11,8 @@
 
 namespace BrianFaust\HasOffers\Brand\API\Offer;
 
-use BrianFaust\HasOffers\Brand\API\AbstractAPI;
 use BrianFaust\Http\HttpResponse;
+use BrianFaust\HasOffers\Brand\API\AbstractAPI;
 
 class DisabledLink extends AbstractAPI
 {
