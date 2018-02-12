@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 namespace BrianFaust\HasOffers\API\Conversion;
 
-use BrianFaust\Http\HttpResponse;
 use BrianFaust\HasOffers\Brand\API\AbstractAPI;
+use BrianFaust\Http\HttpResponse;
 
 class Meta extends AbstractAPI
 {
