@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 namespace BrianFaust\HasOffers\Brand\API\Advertiser;
 
-use BrianFaust\Http\HttpResponse;
 use BrianFaust\HasOffers\Brand\API\AbstractAPI;
+use BrianFaust\Http\HttpResponse;
 
 class User extends AbstractAPI
 {
