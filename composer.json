@@ -1,13 +1,20 @@
 {
-    "name": "faustbrian/hasoffers-brand-php-client",
+    "name": "plients/hasoffers-brand",
     "description": "A HasOffers Client for PHP",
-    "keywords": ["api", "http", "hasoffers", "hasoffers-brand-php-client"],
+    "keywords": [
+        "api",
+        "http",
+        "hasoffers",
+        "hasoffers-brand"
+    ],
     "license": "MIT",
-    "authors": [{
-        "name": "Brian Faust",
-        "email": "hello@brianfaust.me",
-        "homepage": "https://brianfaust.me"
-    }],
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "hello@basecode.sh",
+            "homepage": "https://basecode.sh"
+        }
+    ],
     "require": {
         "php": "^7.1",
         "faustbrian/http": "^1.0"
@@ -18,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BrianFaust\\HasOffers\\Brand\\": "src"
+            "Plients\\HasOffers\\Brand\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BrianFaust\\Tests\\HasOffers\\Brand\\": "tests"
+            "Plients\\Tests\\HasOffers\\Brand\\": "tests"
         }
     },
     "config": {
